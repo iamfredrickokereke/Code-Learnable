@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="./style.css">
     <title>Image Slider</title>
 </head> 
 <body>
     <h1>Beautiful Image Slider Using Html, Css and Js</h1>
 
     <div class="carousel-container">
+
+        <i class="fas fa-arrow-left" id="prevBtn"></i>
+        <i class="fas fa-arrow-right" id="nextBtn"></i>
         <div class="carousel-slide">
             <img src="./images/food5.jpg" id="lastClone"  alt="food5">
             <img src="./images/food1.jpg" alt="food1">
@@ -27,7 +31,10 @@
      <button id="prevBtn">Prev</button>
      <button id="nextBtn">Next</button>
 
+     <script src="https://use.fontawesome.com/586532599f.js"></script>
+
      <script src="app.js"></script>
+
 
 </body>
 </html>  
