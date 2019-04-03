@@ -1,17 +1,28 @@
 *{
     padding: 0px;
     margin: 0px;
-    img{
-        width: 80%;
-    }
     box-sizing: border-box;
+   
 }
 
+body{
+    background-color: cadetblue;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 20px;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    background-color: cadetblue;
+
+}
 
 .carousel-container{
     width: 60%;
     margin: auto; 
-    border: 5px solid black;
+   
     overflow: hidden; 
     position: relative;
 }
