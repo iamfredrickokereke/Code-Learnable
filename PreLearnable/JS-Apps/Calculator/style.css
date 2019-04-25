@@ -1,0 +1,13 @@
+body{
+    background: #000000;
+}
+
+.container{
+    background: #000000;
+    margin: 0px;
+}
+
+.entry{
+    width: 265px;
+    height: 50px;
+}
