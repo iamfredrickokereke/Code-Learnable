@@ -2,3 +2,7 @@ body {
   background: grey;
   margin: 0;
 }
+
+image {
+  width: 100%;
+}
