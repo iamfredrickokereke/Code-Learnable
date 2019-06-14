@@ -20,3 +20,7 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
+
+div {
+  width: 75%;
+}
