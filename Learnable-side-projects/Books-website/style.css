@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   color: antiquewhite;
- 
 }
 
 image {
@@ -12,9 +11,7 @@ image {
 
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
 }
-
 
 .container {
   width: 75%;
