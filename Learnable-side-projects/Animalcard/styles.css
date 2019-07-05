@@ -1,0 +1,54 @@
+body {
+  background: #f9f9f9;
+}
+.animal-card,
+.inner {
+  border: 1px solid #ccc;
+}
+.animal-card {
+  width: 300px;
+  margin: 50px auto;
+  padding: 15px;
+  background: #fdfdfd;
+  box-shadow: 5px 5px 10px #e4e4e4;
+  border-radius: 20px;
+}
+.animal-card h3 {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 29px;
+  font-family: "Courgette", cursive;
+}
+.animal-card .inner {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px 50px;
+  font-family: "Gloria Hallelujah", cursive;
+  border-bottom: 1px thin #4f4f4f;
+  line-height: 50px;
+}
+.animal-card img {
+  width: 300px;
+  border-radius: 50px 10px;
+}
+.animal-card .sub-title {
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-indent: 2px;
+}
+.animal-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+.animal-card ul li {
+  margin-bottom: 3px;
+}
+.animal-card ul li span {
+  font-weight: bold;
+}
+.animal-card .description {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 14px;
+  line-height: 22px;
+}
