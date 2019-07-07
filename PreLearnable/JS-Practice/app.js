@@ -1,1 +1,1 @@
-document.write("This is an external file");
+document.write("i love JS"); 
