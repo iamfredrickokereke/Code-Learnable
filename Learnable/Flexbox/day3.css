@@ -19,7 +19,7 @@ h1{
     
     height: 200px; 
     background: rgb(39, 61, 134);
-    order: 1;    
+    order: 0;    
     flex: 2 1 300px;
     align-self: center;
 }
@@ -29,6 +29,8 @@ h1{
     height:200px;
     background: rgb(172, 57, 52);
     flex-grow: 1;
+    align-self: center;
+    order: 1;
 }
 
 .child-3{
@@ -37,6 +39,7 @@ h1{
     background: rgb(149, 43, 140);
     order: 2;
     flex-grow: 1;
+    align-self: center;
 }
 
 .child-4{
@@ -45,4 +48,5 @@ h1{
     background: rgb(7, 112, 68);
     flex-grow: 1;
     align-self: center;
+    order: 3;
 }
