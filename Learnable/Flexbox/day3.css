@@ -11,6 +11,7 @@ h1{
     height: 100vh;
     border: 20px solid rgb(0, 0, 0);
     display: flex;
+    align-content: stretch;
     
 }
 
@@ -19,12 +20,14 @@ h1{
     height: 200px; 
     background: rgb(39, 61, 134);
     order: 1;
+    flex-grow: 3;
 }
 
 .child-2{
     width: 200px;
     height:200px;
     background: rgb(172, 57, 52);
+    flex-shrink: 4;
 }
 
 .child-3{
