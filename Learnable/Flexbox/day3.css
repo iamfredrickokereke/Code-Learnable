@@ -3,18 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    color: aliceblue;
+}
 
 .parent{
     height: 100vh;
     border: 20px solid rgb(0, 0, 0);
     display: flex;
-    flex-flow: row nowrap;
+    
 }
 
 .child-1{
     width: 200px;
     height: 200px; 
     background: rgb(39, 61, 134);
+    order: 1;
 }
 
 .child-2{
@@ -27,6 +31,7 @@
     width: 200px;
     height: 200px;
     background: rgb(149, 43, 140);
+    order: 2;
 }
 
 .child-4{
