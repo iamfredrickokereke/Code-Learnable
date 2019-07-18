@@ -21,6 +21,7 @@ h1{
     background: rgb(39, 61, 134);
     order: 1;    
     flex: 2 1 300px;
+    align-self: center;
 }
 
 .child-2{
@@ -43,4 +44,5 @@ h1{
     height: 200px;
     background: rgb(7, 112, 68);
     flex-grow: 1;
+    align-self: center;
 }
