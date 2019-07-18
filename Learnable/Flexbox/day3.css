@@ -20,14 +20,14 @@ h1{
     height: 200px; 
     background: rgb(39, 61, 134);
     order: 1;
-    flex-grow: 3;
+    flex-grow: 1;
 }
 
 .child-2{
     width: 200px;
     height:200px;
     background: rgb(172, 57, 52);
-    flex-shrink: 4;
+    flex-grow: 1;
 }
 
 .child-3{
@@ -35,10 +35,12 @@ h1{
     height: 200px;
     background: rgb(149, 43, 140);
     order: 2;
+    flex-grow: 1;
 }
 
 .child-4{
     width: 200px;
     height: 200px;
     background: rgb(7, 112, 68);
+    flex-grow: 1;
 }
