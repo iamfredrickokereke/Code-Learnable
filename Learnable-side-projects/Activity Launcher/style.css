@@ -21,7 +21,7 @@ li{
 }
 
 li p{
-    font-size: large;
+    font-size: 22px;
 }
 
 .material-icons{
@@ -33,5 +33,6 @@ a{
     text-decoration: none;
     padding: 10px;
     display: block;
+    height: 190px;
     
 }
