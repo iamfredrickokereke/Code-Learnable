@@ -17,4 +17,13 @@ li{
     margin: 10px;
     padding: 10px;
     background: grey;
+    float: left;
+}
+
+li p{
+    font-size: large;
+}
+
+.material-icons{
+    font-size:80px;
 }
