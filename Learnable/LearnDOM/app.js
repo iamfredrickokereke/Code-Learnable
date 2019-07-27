@@ -1,1 +1,3 @@
-document.body.style.background = "#474747";
+// document.querySelector('body').style.backgroundColor="blue";
+
+document.body.style.background = "green"
