@@ -1,0 +1,61 @@
+.result-four{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.result-four>li{
+    
+    padding: 5px;
+    background: lime;
+    color: black;
+}
+
+.result-four>li:hover{
+    background: greenyellow;
+    opacity: .9;
+}
+
+
+.navigate{
+
+    padding: 3px;
+    background: blueviolet;
+    color: azure;
+    font-size: 20pt;
+    border: 2px solid violet;
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+.nav{
+
+    padding: 5px;
+    background: transparent;
+    color: black;
+    font-size: 20pt;
+    border: 2px solid violet;
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+.nav:hover{
+    background: #989;
+}
+
+.font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+
+.others{
+
+    padding: 7px;
+    border: none;
+    width: 100px;
+    height: 23px;
+    font-size: 15pt;
+}

@@ -1,0 +1,27 @@
+console.log('hello');
+
+
+var fred = {
+
+    name: 'Fredrick',
+    age: 30,
+    color: 'black',
+    talk: function(){
+        alert('Hi, i am fredrick');
+    }
+};
+
+console.log(fred.name)
+
+
+
+
+var newArray = [1,2, "fred", true, {name:'fred'}, [2,3,4], function(){console.log('i am in an array')}];
+
+
+for ( var i = 0; i < newArray.length; i++ ){
+
+}
+
+
+console.log(1 + "2");
