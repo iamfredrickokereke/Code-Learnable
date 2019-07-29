@@ -11,3 +11,7 @@ const Para = React.createElement(
 ReactDOM.render(Para, document.getElementById("para"));
 
 //using JSX when creating a react element on the DOM
+
+var Heading = <h1>This react code uses JSX...</h1>;
+
+ReactDOM.render(Heading, document.getElementById("head"));
